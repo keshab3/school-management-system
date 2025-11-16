@@ -4,17 +4,23 @@ void studentDetails();
 void studentlogin();
 
 void studentlogin(){
+    cout << "Student Details Page" << endl;
     cout << "1. Exsiting User Account" << endl;
     cout << "2. New Student Registration" << endl;
+    cout << "Select Option 1 or 2: ";
+
 
  int choose;
     cin >> choose;
+    cout << "\n";
+
 
 // exsiting user login
 if(choose == 1){
         string username;
     string password;
 
+    cout << "Type Your Student Credentials" << endl;
     cout << "Enter Student Username: ";
     cin >> username;
     cout << "Enter Student Password: ";
@@ -33,9 +39,6 @@ if(choose == 1){
     // New Student Registration
     }else if(choose == 2){
         cout << "Student registration page" << endl;
-
-
-
 
 
     }else{

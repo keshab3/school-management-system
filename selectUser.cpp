@@ -7,9 +7,13 @@ void studentlogin();
 void selectUser(){
     cout << "1. Admin" << endl;
     cout << "2. Student User" << endl;
-
+    cout << "Select 1(Admin) or 2(Student): ";
     int choose;
     cin >> choose;
+    cout << "\n";
+
+
+
     // Admin User Login
     if(choose == 1){
         adminlogin();
