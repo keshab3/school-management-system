@@ -2,6 +2,7 @@
 using namespace std;
 void studentDetails();
 void studentlogin();
+void newStudent();
 
 void studentlogin(){
     cout << "Student Details Page" << endl;
@@ -39,7 +40,7 @@ if(choose == 1){
     // New Student Registration
     }else if(choose == 2){
         cout << "Student registration page" << endl;
-
+        newStudent();
 
     }else{
         cout << "Invalid Option" << endl;

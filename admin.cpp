@@ -5,10 +5,11 @@ void studentDetails();
 void selectUser();
 void adminlogin();
 void student();
+void newStudent();
 
 int main(){
-   selectUser();
-   
+   selectUser();  
+
  
  return 0;
  }
